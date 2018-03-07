@@ -1,6 +1,6 @@
-# ng-sip Essentials - Extension Pack for VS Code
+# ng-sip-essentials - Extension Pack for VS Code
 
-This extension pack for Visual Studio Code adds extensions that are amazingly useful for ng-alain development.
+This extension pack for Visual Studio Code adds extensions that are amazingly useful for ng-sip development.
 
 ## Included
 
