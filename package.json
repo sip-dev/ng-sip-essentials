@@ -2,17 +2,15 @@
     "name": "ng-sip-essentials",
     "displayName": "ng-sip-essentials",
     "description": "Essential extensions for ng-sip developers",
-    "icon": "images/ng-zorro.png",
+    "icon": "images/logo.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/sip-dev/ng-sip-essentials.git"
     },
     "keywords": [
-        "Angular",
         "Angular 4",
         "Angular 5",
         "TypeScript",
-        "HTML",
         "ng-sip"
     ],
     "version": "1.0.0",
@@ -23,6 +21,9 @@
     "categories": [
         "Extension Packs"
     ],
+    "scripts": {
+        "vscode:package": "vsce package"
+    },
     "extensionDependencies": [
         "cipchk.ng-zorro-vscode",
         "Mikael.Angular-BeastCode",
@@ -32,5 +33,8 @@
         "pmneo.tsimporter",
         "formulahendry.auto-rename-tag",
         "formulahendry.auto-close-tag"
-    ]
+    ],
+    "devDependencies": {
+        "vsce": "^1.37.5"
+    }
 }
